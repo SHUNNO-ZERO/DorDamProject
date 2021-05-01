@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asif.dordam2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DorDam">
+        <activity android:name="com.asif.dordam2.mymensingh"></activity>
+        <activity android:name="com.asif.dordam2.rangpur" />
+        <activity android:name="com.asif.dordam2.rajsahi" />
+        <activity android:name="com.asif.dordam2.chittagong" />
+        <activity android:name="com.asif.dordam2.dhaka" />
+        <activity android:name="com.asif.dordam2.sylhet" />
+        <activity android:name="com.asif.dordam2.khulna" />
+        <activity android:name="com.asif.dordam2.barishal" />
+        <activity android:name="com.asif.dordam2.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

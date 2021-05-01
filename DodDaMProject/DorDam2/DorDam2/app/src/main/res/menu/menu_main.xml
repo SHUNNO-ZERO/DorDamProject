@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+        android:id="@+id/dhaka"
+        android:title="dhaka "
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+    <item
+
+        android:id="@+id/Barishal"
+        android:title="Barishal "
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+
+        android:id="@+id/Chittagong"
+        android:title="Chittagang"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+
+        android:id="@+id/Khulna"
+        android:title="Khulna"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+
+        android:id="@+id/Mymensingh"
+        android:title="Mymensingh"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+
+        android:id="@+id/Rajshahi"
+        android:title="Rajsahi "
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+
+        android:id="@+id/Rangpur"
+        android:title="Rangpur"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+
+        android:id="@+id/Sylhet"
+        android:title="Sylhet"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+</menu>
